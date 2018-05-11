@@ -6,7 +6,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "bulma": ">=0.7",
+    "bulma": ">=0.6.2",
     "jquery": ">=1.8.2"
   },
   "ignore": []
