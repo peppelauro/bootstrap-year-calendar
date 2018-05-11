@@ -1,12 +1,12 @@
 {
-  "name": "bootstrap-year-calendar",
+  "name": "bulma-year-calendar",
   "main": [
-    "css/bootstrap-year-calendar.css",
-    "js/bootstrap-year-calendar.js"
+    "css/bulma-year-calendar.css",
+    "js/bulma-year-calendar.js"
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "bootstrap": ">=3.1.1",
+    "bulma": ">=0.7",
     "jquery": ">=1.8.2"
   },
   "ignore": []
