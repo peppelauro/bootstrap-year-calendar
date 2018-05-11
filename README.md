@@ -1,6 +1,6 @@
 # bulma-year-calendar
 A fully customizable year calendar widget, for bulma !
-Forked from bootstrap-year-calendar by Paul-DS. You can find all details on the [official website](http://www.bootstrap-year-calendar.com/).
+Based on bootstrap-year-calendar by Paul-DS.
 
 
 ![alt tag](http://www.bootstrap-year-calendar.com/img/calendar.png)
@@ -14,8 +14,8 @@ This plugin requires the following libraries :
 ## Installation
 You can get the widget using the following methods:
 - From the [GitHub repository](https://github.com/peppelauro/bulma-year-calendar/releases) ~~or the [official website](http://www.bootstrap-year-calendar.com/#Download).~~
-~~- From the Node package manager, using the following command: `npm install bootstrap-year-calendar`
-- From Bower, using the following command: `bower install bootstrap-year-calendar`~~
+- From the Node package manager, using the following command: `npm install bulma-year-calendar`
+- From Bower, using the following command: `bower install bulma-year-calendar`
 
 ## Usage
 
