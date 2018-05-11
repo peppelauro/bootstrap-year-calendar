@@ -40,56 +40,64 @@ All options can be set at initialization :
 Or using the get/set methods present for each option.
 
 ### allowOverlap
-Type: Boolean
-Default: true
-Get/Set methods: getAllowOverlap(), setAllowOverlap()
+Type: Boolean  
+Default: true  
+Get/Set methods: getAllowOverlap(), setAllowOverlap()  
+
 Specifies whether the user can select a range which overlapping an other element present in the datasource.
 
 ### alwaysHalfDay
-Type: Boolean
-Default: false
-Get/Set methods: getAlwaysHalfDay(), setAlwaysHalfDay()
+Type: Boolean  
+Default: false  
+Get/Set methods: getAlwaysHalfDay(), setAlwaysHalfDay()  
+
 Specifies whether the beginning and the end of each datasource should be displayed as half selected day.
 
 ### contextMenuItems
-Type: Array of: { text: String, click: function(dataSourceElement), subMenu: [] }
-Default: false
-Get/Set methods: getContextMenuItems(), setContextMenuItems()
-Specifies the items of the default context menu.
-The click event is called with the selected data source element. Each menu item can contain sub-items, which can themselves contain sub-items, etc...
+Type: Array of: { text: String, click: function(dataSourceElement), subMenu: [] }  
+Default: false  
+Get/Set methods: getContextMenuItems(), setContextMenuItems()  
+
+Specifies the items of the default context menu.  
+The click event is called with the selected data source element. Each menu item can contain sub-items, which can themselves contain sub-items, etc...  
 Don't forget to enable the enableContextMenu option to be able to use the context menu.
 
 ### customDayRenderer
-Type: function(element, date)
-Default: null
-Get/Set methods: getCustomDayRenderer(), setCustomDayRenderer()
-Specify a custom renderer for days.
+Type: function(element, date)  
+Default: null  
+Get/Set methods: getCustomDayRenderer(), setCustomDayRenderer()  
+
+Specify a custom renderer for days.  
 This function is called during render for each day.
 
 ### customDataSourceRenderer
-Type: function(element, date, events)
-Default: null
-Get/Set methods: getCustomDataSourceRenderer(), setCustomDataSourceRenderer()
-Specify a custom renderer for data source.
-Works only with the style set to "custom".
+Type: function(element, date, events)  
+Default: null  
+Get/Set methods: getCustomDataSourceRenderer(), setCustomDataSourceRenderer()  
+
+Specify a custom renderer for data source.  
+Works only with the style set to "custom".  
 This function is called during render for each day containing at least one event.
 
 ### dataSource
-Type: Array of: { startDate: Date, endDate: Date, name: String, ... }
-Default: []
-Get/Set methods: getDataSource(), setDataSource()
+Type: Array of: { startDate: Date, endDate: Date, name: String, ... }  
+Default: []  
+Get/Set methods: getDataSource(), setDataSource()  
+
 The elements that must be displayed on the calendar. The objects present in the array must contain a start date and an end date (and a title if you want to use the default context menu), but they can contain other properties.
 
 ### disabledDays
-Type: Array of Date
-Default: []
-Get/Set methods: getDisabledDays(), setDisabledDays()
+Type: Array of Date  
+Default: []  
+Get/Set methods: getDisabledDays(), setDisabledDays()  
+
 The days that must be displayed as disabled.
 
 ### displayWeekNumber
-Type: Boolean
-Default: false
-Get/Set methods: getDisplayWeekNumber(), setDisplayWeekNumber()
+Type: Boolean  
+Default: false  
+Get/Set methods: getDisplayWeekNumber(), setDisplayWeekNumber()  
+
 Specifies whether the weeks number are displayed.
 
 ### enableContextMenu
