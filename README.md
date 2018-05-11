@@ -8,7 +8,7 @@ Forked from bootstrap-year-calendar by Paul-DS. You can find all details on the 
 ## Requirements
 
 This plugin requires the following libraries :
-- ~~Bootstrap v3.0.0~~ Bulma v0.7 or later
+- ~~Bootstrap v3.0.0~~ Bulma v0.6.2 or later
 - jQuery v1.8.0 or later
 
 ## Installation
