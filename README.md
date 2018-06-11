@@ -101,58 +101,66 @@ Get/Set methods: getDisplayWeekNumber(), setDisplayWeekNumber()
 Specifies whether the weeks number are displayed.
 
 ### enableContextMenu
-Type: Boolean
-Default: false
-Get/Set methods: getEnableContextMenu(), setEnableContextMenu()
+Type: Boolean  
+Default: false  
+Get/Set methods: getEnableContextMenu(), setEnableContextMenu()  
+
 Specifies whether the default context menu must be displayed when right clicking on a day.
 
 ### enableRangeSelection
-Type: Boolean
-Default: false
-Get/Set methods: getEnableRangeSelection(), setEnableRangeSelection()
+Type: Boolean  
+Default: false  
+Get/Set methods: getEnableRangeSelection(), setEnableRangeSelection()  
+
 Specifies whether the user can make range selection.
 
 ### language
-Type: String
-Default: en
-Get/Set methods: getLanguage(), setLanguage()
+Type: String  
+Default: en  
+Get/Set methods: getLanguage(), setLanguage()  
+
 The language/culture used for calendar rendering. The implemented language are the following :
 
-English
-French
-To use a language, you need to include the corresponding js file (bootstrap-year-calendar.XX.js or bootstrap-year-calendar.XX.min.js).
-If the used language contains some special characters, don't forget to use the charset="UTF-8" attribute on the script tag.
-If a non implemented language is specified, the default language will be used (english).
+English  
+French  
+To use a language, you need to include the corresponding js file (bootstrap-year-calendar.XX.js or bootstrap-year-calendar.XX.min.js).  
+If the used language contains some special characters, don't forget to use the charset="UTF-8" attribute on the script tag.  
+If a non implemented language is specified, the default language will be used (english).  
 
 ### maxDate
-Type: Date
-Default: null
-Get/Set methods: getMaxDate(), setMaxDate()
+Type: Date  
+Default: null  
+Get/Set methods: getMaxDate(), setMaxDate()  
+
 The date until which days are enabled (user can select dates, etc...). User cannot not access the years after the maximum date.
 
 ### minDate
-Type: Date
-Default: null
-Get/Set methods: getMinDate(), setMinDate()
+Type: Date  
+Default: null  
+Get/Set methods: getMinDate(), setMinDate()  
+
 The date from which days are enabled (user can select dates, etc...). User cannot not access the years before the minimum date.
 
 ### roundRangeLimits
-Type: Boolean
-Default: false
-Get/Set methods: getRoundRangeLimits(), setRoundRangeLimits()
+Type: Boolean  
+Default: false  
+Get/Set methods: getRoundRangeLimits(), setRoundRangeLimits()  
+
 Specifies whether the beginning and the end of each range should be displayed as rounded cells.
 
 ### startYear
-Type: Number
-Default: Current year
-Get/Set methods: getYear(), setYear()
+Type: Number  
+Default: Current year  
+Get/Set methods: getYear(), setYear()  
+
 The year on which the calendar should be opened.
 
 ### style
-Type: String
-Default: 'border'
-Get/Set methods: getStyle(), setStyle()
-Specifies the style used for displaying datasource:
+Type: String  
+Default: 'border'  
+Get/Set methods: getStyle(), setStyle()  
 
-border: a colored border is displayed under the number of the day. This option allows to display several elements on a same day.
-background: a colored background is displayed behind the day. This option allows to display only one element on a same day.
+Specifies the style used for displaying datasource:  
+
+border: a colored border is displayed under the number of the day. This option allows to display several elements on a same day.  
+background: a colored background is displayed behind the day. This option allows to display only one element on a same day.  
