@@ -1,6 +1,6 @@
 {
   "name": "bulma-year-calendar",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "A fully customizable year calendar widget, for bulma !",
   "main": "./js/bulma-year-calendar.js",
   "scripts": {
