@@ -3,7 +3,7 @@ A fully customizable year calendar widget, for bulma !
 Based on bootstrap-year-calendar by Paul-DS.
 
 
-![alt tag](http://www.bootstrap-year-calendar.com/img/calendar.png)
+![alt tag](./examples/img.png)
 
 ## Requirements
 
